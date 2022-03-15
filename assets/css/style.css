@@ -1,5 +1,9 @@
+*{
+    box-sizing: border-box;
+}
+
 body{
-    background-color: rgb(55, 55, 180);
+    background-color: rgba(128, 128, 128, 0.507);
     color: white;
 }
 
@@ -30,6 +34,8 @@ li{
     text-decoration: underline;
 }
 
+
+
 .laser{
     height: 300px;
     width: 100%;
@@ -38,22 +44,36 @@ li{
     
 }
 
-section{
-    height: 200px;
+#labels{
+    width: 20%;
+    display: inline-block;
 }
 
-.about{
-    width: 40%;
-    height: 200px;
+#content{
+    float: right;
+    width: 80%
 }
 
-section h2{
+.label{
     text-decoration: underline;
-    text-align: center;
-    margin-top: 50px;
+    padding: 30px;
+    text-align: right;
+    font-size: 32px;
+    height: 300px;
 }
 
-section p{
-    margin: 10px;
-    padding: 20px;
+.cont{
+    position: relative;
+    top: 60px;
+    padding: 30px;
+    text-align: center;
+    font-size: 32px;
+    height: 300px;
 }
+
+#content p{
+    text-decoration: none;
+}
+
+
+

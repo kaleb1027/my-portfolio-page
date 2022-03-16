@@ -4,7 +4,7 @@
 In this project I attempted to create a portfolio page for myself, solely using the languages HTML and CSS.
 
 ## Deployed Application
-![](C:\Users\kaleb\Downloads\deployedapp)
+![portfolio image](deployedapp.png)
 
 ## Link
 https://kaleb1027.github.io/my-portfolio-page/
